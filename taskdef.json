@@ -7,7 +7,7 @@
   "executionRoleArn": "arn:aws:iam::448049788660:role/week4-ecs-stack-ECSTaskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "ecs-stack-container",
+      "name": "week4-ecs-stack-container",
       "image": "<IMAGE1_NAME>",
       "portMappings": [
         {
