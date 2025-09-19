@@ -23,7 +23,7 @@
           "awslogs-stream-prefix": "ecs-stack-container-log"
         }
       },
-      "HealthCheck": {
+      "healthCheck": {
         "Command": [
           "CMD-SHELL",
           "curl -f http://localhost:80/ || exit 1"
