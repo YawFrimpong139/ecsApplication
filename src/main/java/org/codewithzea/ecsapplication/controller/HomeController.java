@@ -12,6 +12,7 @@ public class HomeController {
     public String home(Model model) {
         model.addAttribute("name", "Yaw Frimpong");
         model.addAttribute("lab", "ECS Deployment Lab");
+        model.addAttribute("description", "ECS Deployment Lab Description");
         return "index";
     }
 }
